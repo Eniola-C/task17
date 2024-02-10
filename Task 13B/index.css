@@ -1,0 +1,120 @@
+
+.logo {
+    height: 50px;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    
+}
+
+h1 {
+  text-align:center;
+}
+
+.control, fieldset {
+  margin: 6px 0;
+  background-color:burlywood;
+  
+}
+
+label {
+  display: inline-block;
+  width: 200px;
+  vertical-align: top;
+}
+
+input + label {
+  width: auto;
+}
+
+#first_name {
+    border-color: gray;
+    border-radius: 5px;
+    width: 300px;
+    height: 40px;
+}
+#last_name {
+    border-color: gray;
+    border-radius: 5px;
+    width: 300px;
+    height: 40px;
+}
+#street {
+  border-color: gray;
+    border-radius: 5px;
+    width: 300px;
+    height: 40px;
+}
+#city {
+  border-color: gray;
+    border-radius: 5px;
+    width: 300px;
+    height: 40px;
+}
+#state {
+  border-color: gray;
+    border-radius: 5px;
+    width: 300px;
+    height: 40px;
+}
+#number {
+  border-color: gray;
+    border-radius: 5px;
+    width: 300px;
+    height: 40px;
+}
+/* #image {
+  border-color: gray;
+    border-radius: 5px;
+    width: 900px;
+    height: 40px;
+} */
+
+#mail {
+  border-color: gray;
+    border-radius: 5px;
+    width: 300px;
+    height: 40px;
+}
+
+#biography {
+  border-color: gray;
+    border-radius: 5px;
+    width: 300px;
+    height: 40px;
+}
+.standalone{
+    
+    padding: 20px;
+    margin-top: 10px;
+    border: 6px solid brown; 
+    border-radius: 10px; 
+    background-color: #f9f9f9; 
+    max-width: 400px; 
+    margin: auto;
+  font-size: 20px;
+}
+
+.submit {
+    height: 60px;
+    width: 90px;
+    color: white;
+    background-color: brown;
+    padding-top: 2px;
+    text-align: center;
+    margin: 0 auto;
+    margin-left: 40%;
+    margin-top: 20px;
+    border-radius: 9px;
+}
+.submit:hover {
+    background-color: darkgoldenrod;
+}
+footer {
+    background-color: black;
+    color: white;
+    margin-top: 360px;
+    padding-top: 160px;
+    padding-bottom: 20px;
+    padding-left: 10px;
+}
