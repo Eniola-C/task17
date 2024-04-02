@@ -1,0 +1,607 @@
+ *{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+    
+ }
+ .fixedposition{
+   position: relative;
+   height: 50px;
+   margin: 0;
+   max-width: 100%;
+   background-color: #ffffff;
+   z-index: 1;
+   
+   
+ }
+.logo5{
+   position: fixed;
+   top:0px;
+   left: 0px;
+   margin: 0;
+   width: 100%;
+   background-color: #ffffff;
+   z-index: 2;
+}
+.signI{
+   position: fixed;
+   top: 5px;
+   left: 1050px;
+   z-index: 3;
+}
+.signUP{
+   position: fixed;
+   top: 2px;
+   left: 1150px;
+   z-index: 3;
+}
+ /* This is the first section of my web page */
+ .section1{
+    position: relative;
+    height: 650px;
+    max-width: 100%;
+    background-image: url(./images/back.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  
+}
+/* This is in a picture format */
+.logo {
+   position: absolute;
+   top: 20px; /* Adjust as needed */
+   left: 450px; /* Adjust as needed */
+   
+}
+/* My sign in style */
+.sign{
+   position: absolute;
+   top: 20px;
+   left: 1065px;
+}
+/* My sign in button style */
+.signin{
+   font-family: 'Times New Roman', Times, serif;
+   font-size: 20px;
+   color: #ffffff;
+   background-color: #d91400;
+   border-radius: 60px;
+   padding: 10px;
+   margin: 0px;
+   border: 0;
+   letter-spacing: -0.05ch;
+   overflow: hidden;
+}
+/* My sign up style */
+.signU{
+   position: absolute;
+   top: 20px;
+   left: 1160px;
+}
+/* My sign up button style */
+.signup{
+   font-family: Arial, sans-serif;
+   font-size: 20px;
+   color: #000000;
+   background-color: #ffffff;
+   border-radius: 60px;
+   padding: 10px;
+   margin: 0px;
+   border: 0;
+   letter-spacing: -0.05ch;
+   overflow: hidden;
+}
+/* My heading words style */
+.words{
+   position: absolute;
+   top: 300px;
+   left: 300px;
+}
+/* Styled the heading words */
+.style{
+   font-family: Arial, Helvetica, sans-serif;
+   font-size: 40px;
+   color: #ffffff;
+}
+/* styled the container for my search bar */
+.searchbar{
+   position: absolute;
+   top: 370px;
+   left: 430px;
+}
+/* The search bar style */
+#gsearch{
+   width: 420px;
+   height: 55px;
+   border: 0;
+   border-radius: 50px;
+   font-size: 20px;
+   text-align: center;
+}
+/* Styled the address section container */
+.address {
+   position: absolute;
+   left: 530px;
+   top: 450px;
+}
+/* Styled the button in the address container */
+.button{
+   border: 2px solid white;
+   border-radius: 60px;
+   width: 200px;
+   height: 30px;
+
+}
+/* Section two style */
+.section2{
+   position: relative;
+   height: 500px;
+   max-width: 100%;
+ 
+}
+
+.dasher{
+   position: absolute;
+   left: 100px;
+   top: 100px;
+   height: 300px;
+   max-width: 320px;
+   font-size: 20px;
+   text-align: center;
+}
+
+.partner{
+   position: absolute;
+   left: 500px;
+   top: 100px;
+   height: 300px;
+   max-width: 330px;
+   font-size: 20px;
+   text-align: center;
+}
+
+.experience{
+   position: absolute;
+   left: 900px;
+   top: 100px;
+   height: 300px;
+   max-width: 330px;
+   font-size: 20px;
+   text-align: center;
+}
+.section3{
+   position: relative;
+   height: 600px;
+   max-width: 100%;
+   background-size: cover;
+   background-position: center;
+}
+/* I positioned the words */
+.FindRestaurants{
+   position: absolute;
+   left: 30px;
+   top: 230px;
+   font-size: 17px;
+   height: 300px;
+   max-width: 400px;
+   text-align: justify;
+
+}
+.lbutton{
+   width: 150px;
+   height: 40px;
+   color: white;
+   background-color: #d91400;
+   border-radius: 40px;
+   border: 0;
+   font-size: 17px;
+}
+/* The image for section 3 */
+.PizzaPics{
+   position: absolute;
+   left: 430px;
+   top: 130px;
+   max-width: 500px;
+}
+
+.section4{
+   position: relative;
+   height: 700px;
+   max-width: 100%;
+   background-color: #fef1ee;
+}
+
+.DashPassPics{
+   position: absolute;
+   top: 50px;
+   left: 50px;
+}
+
+.DashPass{
+   position: absolute;
+   top: 250px;
+   left: 820px;
+   text-align: justify;
+   font-size: 17px;
+}
+.mbutton{
+   width: 130px;
+   height: 40px;
+   color: white;
+   background-color: #d91400;
+   border-radius: 40px;
+   border: 0;
+   font-size: 17px;  
+}
+/* Added opacity to my image to allow the text to be bold */
+.section5{
+   position: relative;
+   height: 600px;
+   max-width: 100%;
+   background-image: url(./images/groceries4.jpg);
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position: center;
+   opacity: 0.9;
+}
+
+.grocery{
+   position: absolute;
+   left: 350px;
+   top: 130px;
+   font-size: 17px;
+   font-weight: 700px;
+   text-align: center;
+   color: #ffffff;
+}
+
+.section6{
+   position: relative;
+   height: 700px;
+   max-width: 100%;
+   background-color: #fef1ee;
+}
+
+.shopping{
+   position: absolute;
+   top: 250px;
+   left: 30px;
+   max-width: 500px;
+   font-size: 17px;
+   text-align: justify;
+}
+.sbutton{
+   width: 100px;
+   height: 40px;
+   color: white;
+   background-color: #d91400;
+   border-radius: 40px;
+   border: 0;
+   font-size: 17px;  
+}
+
+.shoppingpics{
+   position: absolute;
+   top: 60px;
+   left: 490px;
+   
+}
+
+.section7{
+   position: relative;
+   height: 1680px;
+   max-width: 100%;
+   background-color: #fdf0ed;
+}
+
+
+.GiftingHead{
+   position: absolute;
+   top: 10px;
+   left: 400px;
+   font-size: 40px;
+   width: 500px;
+   text-align: center;
+}
+
+.pickup{
+   position: absolute;
+   top: 150px;
+   left: 85px;
+   font-size: 17px;
+   width: 400px;
+   text-align: center;
+}
+.elbutton{
+   width: 180px;
+   height: 40px;
+   color: white;
+   background-color: #d91400;
+   border-radius: 40px;
+   border: 0;
+   font-size: 17px;
+}
+
+.flower{
+   position: absolute;
+   top:150px;
+   left: 660px;
+   font-size: 17px;
+   width: 520px;
+   text-align: center;
+}
+
+.minibar{
+   position: absolute;
+   top: 935px;
+   left: 85px;
+   font-size: 17px;
+   width: 400px;
+   text-align: center;
+}
+
+.pet{
+   position: absolute;
+   top: 935px;
+   left: 660px;
+   font-size: 17px;
+   max-width: 530px;
+   text-align: center;
+   overflow: hidden;
+}
+
+.flowers{
+   width: 100px;
+   height: 50px;
+   border-radius: 30px;
+}
+
+.package{
+   width: 100px;
+   height: 50px;
+   border-radius: 30px;
+}
+.alcohol{
+   width: 100px;
+   height: 50px;
+   border-radius: 30px;
+}
+.supplies{
+   width: 100px;
+   height: 50px;
+   border-radius: 30px;
+}
+.section8{
+   position: relative;
+   height: 700px;
+   max-width: 100%;     
+}
+.opportunity{
+   position: absolute;
+   max-width: 350px;
+   top: 300px;
+   left: 60px;
+   text-align: justify;
+}
+
+.Dasherpics{
+   position: absolute;
+   top: 160px;
+   left: 500px;
+}
+
+.Sign{
+   position: absolute;
+   top: 20px;
+   width: 500px;
+   left: 450px;
+   text-align: center;
+}
+
+.section9{
+   position: relative;
+   height: 450px;
+   max-width: 100%;
+   background-color: #fef1ee;
+      
+}
+
+.grow{
+   position: absolute;
+   max-width: 200px;
+   top: 10px;
+   left: 100px;
+}
+
+.growwords{
+   position: absolute;
+   max-width: 400px;
+   top: 130px;
+   left: 750px;
+   font-size: 17px;
+}
+.section10{
+   position: relative;
+   height: 400px;
+   max-width: 100%;   
+}
+.neighborhood{
+   position: absolute;
+   top: 50px;
+   left: 350px;
+}
+.table{
+   position: absolute;
+   top: 50px;
+   left: 50px;
+}
+.style1{
+   position: absolute;
+   top: 100px;
+   left: 280px;
+   width: 100%;
+      
+  }
+  th{
+   width: 33.3%;
+  }
+  tr,td,th{
+   padding: 10px;
+   border-collapse: collapse;
+   padding-right: 30px;
+   white-space: nowrap;
+  }
+  th:hover{
+   background-color: gainsboro;
+   border-bottom: 1px solid black;
+  }
+  td:hover {
+      background-color: gainsboro;
+  }
+
+.section11{
+   position: relative;
+   height: 900px;
+   max-width: 100%;
+   font-size: 17px;
+   background-color: black; 
+   color: white;
+}
+.head{
+   position: absolute;
+   top:30px;
+   left: 90px;
+   font-size: 25px;
+}
+.part1{
+   position: absolute;
+   top: 80px;
+   left: 90px;
+   font-size: 15px;
+}
+.part2{
+   position: absolute;
+   top: 80px;
+   left: 380px;
+   font-size: 15px;
+}
+
+
+.part3{
+   position: absolute;
+   top: 80px;
+   left: 680px;
+   font-size: 15px;
+}
+.part4{
+   position: absolute;
+   top: 80px;
+   left: 980px;
+   font-size: 15px;
+}
+a {
+   text-decoration: none;
+   color: white;
+}
+a:hover{
+   text-decoration: underline;
+}
+.head2{
+   position: absolute;
+   top:300px;
+   left: 90px;
+   font-size: 23px;  
+}
+.anotherpart1{
+   position: absolute;
+   top: 350px;
+   left: 90px;
+   font-size: 15px;
+}
+.head3{
+   position: absolute;
+   top:300px;
+   left: 330px;
+   font-size: 23px;
+}
+.anotherpart2{
+   position: absolute;
+   top: 350px;
+   left: 330px;
+   font-size: 15px;
+}
+.head4{
+   position: absolute;
+   top:300px;
+   left: 580px;
+   font-size: 23px;
+}
+.anotherpart3{
+   position: absolute;
+   top: 350px;
+   left: 580px;
+   font-size: 15px;
+}
+
+.logo3{
+   position: absolute;
+   top: 840px;
+   left: 90px;
+}
+.terms{
+   position: absolute;
+   top: 845px;
+   left: 155px;
+   font-size: 13px;
+}
+.privacy{
+   position: absolute;
+   top: 845px;
+   left: 260px;
+   font-size: 13px;
+}
+.location{
+   position: absolute;
+   top: 845px;
+   left: 320px;
+   font-size: 13px;
+}
+
+.share{
+   position: absolute;
+   top: 845px;
+   left: 445px;
+   font-size: 13px;
+}
+.copyright{
+   position: absolute;
+   top: 845px;
+   left: 710px;
+   font-size: 13px;
+}
+.input{
+   position: absolute;
+   top: 835px;
+   left: 860px;
+   
+}
+select{
+   background-color: #ffffff;
+   font-size: 14px;
+   padding: 10px;
+   width: 200px;
+   height: 40px;
+   border-radius: 20px;
+}
+.facebook{
+   position: absolute;
+   top:845px;
+   left: 1175px;
+}
+.instagram{
+   position: absolute;
+   top: 845px;
+   left: 1150px;
+}
+
